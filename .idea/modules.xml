@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android_studio_vefxistyaosani_app.iml" filepath="$PROJECT_DIR$/Android_studio_vefxistyaosani_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tyaosanii.iml" filepath="$PROJECT_DIR$/tyaosanii.iml" />
+      <module fileurl="file://C:\Users\odina\Desktop\tyaosani\Android_studio_vefxistyaosani_app\app\app.iml" filepath="C:\Users\odina\Desktop\tyaosani\Android_studio_vefxistyaosani_app\app\app.iml" />
+      <module fileurl="file://C:\Users\odina\Desktop\tyaosani\Android_studio_vefxistyaosani_app\tyaosanii.iml" filepath="C:\Users\odina\Desktop\tyaosani\Android_studio_vefxistyaosani_app\tyaosanii.iml" />
     </modules>
   </component>
 </project>
