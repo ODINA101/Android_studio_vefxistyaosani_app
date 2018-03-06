@@ -2,6 +2,7 @@ package com.tyaosani.shota.tyaosanii
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.TextView
 
 class FullActivity : AppCompatActivity() {
@@ -17,6 +18,22 @@ supportActionBar!!.setHomeButtonEnabled(true)
 
           val txtview = findViewById<TextView>(R.id.des)
 txtview.text = data
+
+    }
+
+    override fun onBackPressed() {
+        // code here to show dialog
+        finish()
+    }
+
+   override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.getItemId()) {
+            android.R.id.home ->
+
+
+                finish()
+        }
+        return true
 
     }
 }

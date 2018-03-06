@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FullActivity" android:parentActivityName=".MainActivity" android:theme="@style/Theme.AppCompat">
+        <activity android:name=".FullActivity"  android:theme="@style/Theme.AppCompat">
 
         </activity>
     </application>
