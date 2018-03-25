@@ -2,6 +2,7 @@ package com.tyaosani.shota.tyaosanii
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.view.MenuItem
 import android.widget.TextView
 
@@ -18,7 +19,6 @@ supportActionBar!!.setHomeButtonEnabled(true)
 
           val txtview = findViewById<TextView>(R.id.des)
 txtview.text = data
-
     }
 
     override fun onBackPressed() {
